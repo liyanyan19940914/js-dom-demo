@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>insertBefore</title>
+    <script>
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var input = document.createElement('input');
+                var button = document.getElementById('text1');
+                var box = document.getElementById('box');
+                box.insertBefore(input,button);
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="text" id="text">
+    <input type="button" id="text1">
+    <input type="button" id="button">
+</div>
+<button id="btn">submit</button>
+</body>
+</html>
