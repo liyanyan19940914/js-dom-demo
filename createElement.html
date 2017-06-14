@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>createElement</title>
+    <script>
+        window.onload = function(){
+            document.getElementById('btn').onclick = function(){
+                var box = document.getElementById('box');
+                var input = document.createElement('input');
+                box.appendChild(input);
+            }
+        }
+    </script>
+</head>
+<body>
+<div id="box">
+    <input type="text" id="name">
+</div>
+<button id="btn">click me</button>
+</body>
+</html>
