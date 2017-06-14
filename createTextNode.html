@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>createTextNode</title>
+    <script>
+        window.onload = function () {
+            document.getElementById('btn').onclick = function () {
+                var btn = document.createElement('button');
+                var text = document.createTextNode('click me');
+                btn.appendChild(text);
+                document.body.appendChild(btn);
+            }
+        }
+    </script>
+</head>
+<body>
+<p>点击创建有名称的按钮</p>
+<button id="btn">submit</button>
+</body>
+</html>
