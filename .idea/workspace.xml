@@ -33,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createTextNode.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createTextNode.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createTextNode.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="createDocumentFragment.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/createDocumentFragment.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -57,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/createElement.html" />
         <option value="$PROJECT_DIR$/createTextNode.html" />
+        <option value="$PROJECT_DIR$/createDocumentFragment.html" />
       </list>
     </option>
   </component>
@@ -187,12 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1497439405646</updated>
-      <workItem from="1497439407912" duration="665000" />
+      <workItem from="1497439407912" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="665000" />
+    <option name="totallyTimeSpent" value="1155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -244,6 +255,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createDocumentFragment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
           <folding />
         </state>
       </provider>

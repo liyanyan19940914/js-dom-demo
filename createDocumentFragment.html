@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>createDocumentFragment</title>
+    <script>
+        window.onload = function () {
+            var list = document.getElementById('list');
+            var fragment = document.createDocumentFragment();
+            for(var i = 0; i < 10; i++){
+                var li = document.createElement('li');
+                li.textContent = i;
+                fragment.appendChild(li);
+            }
+            list.appendChild(fragment);
+        }
+    </script>
+</head>
+<body>
+<ul id="list"></ul>
+</body>
+</html>
